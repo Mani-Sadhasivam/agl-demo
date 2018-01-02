@@ -40,7 +40,7 @@
 #include <afb/afb-binding.h>
 
 #define CAN_DEV "vcan0"
-#define SER_DEV "/dev/tty96B0"
+#define SER_DEV "/dev/ttyACM0"
 
 static const struct afb_binding_interface *interface;
 
